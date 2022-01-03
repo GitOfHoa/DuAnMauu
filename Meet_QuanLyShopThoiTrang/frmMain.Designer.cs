@@ -43,7 +43,6 @@ namespace Meet_QuanLyShopThoiTrang
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btDangXuat = new Guna.UI2.WinForms.Guna2Button();
-            this.lbTiltle = new System.Windows.Forms.Label();
             this.PanelMain = new System.Windows.Forms.Panel();
             this.PanelMenu.SuspendLayout();
             this.PanelLogo.SuspendLayout();
@@ -209,7 +208,6 @@ namespace Meet_QuanLyShopThoiTrang
             this.PanelTiltleBar.Controls.Add(this.guna2ControlBox2);
             this.PanelTiltleBar.Controls.Add(this.guna2ControlBox1);
             this.PanelTiltleBar.Controls.Add(this.btDangXuat);
-            this.PanelTiltleBar.Controls.Add(this.lbTiltle);
             this.PanelTiltleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelTiltleBar.Location = new System.Drawing.Point(220, 0);
             this.PanelTiltleBar.Name = "PanelTiltleBar";
@@ -268,18 +266,6 @@ namespace Meet_QuanLyShopThoiTrang
             this.btDangXuat.Text = "Đăng Xuất";
             this.btDangXuat.Click += new System.EventHandler(this.btDangXuat_Click);
             // 
-            // lbTiltle
-            // 
-            this.lbTiltle.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lbTiltle.AutoSize = true;
-            this.lbTiltle.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTiltle.ForeColor = System.Drawing.Color.White;
-            this.lbTiltle.Location = new System.Drawing.Point(371, 26);
-            this.lbTiltle.Name = "lbTiltle";
-            this.lbTiltle.Size = new System.Drawing.Size(269, 33);
-            this.lbTiltle.TabIndex = 2;
-            this.lbTiltle.Text = "MEET CLOTHINGS";
-            // 
             // PanelMain
             // 
             this.PanelMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PanelMain.BackgroundImage")));
@@ -311,7 +297,6 @@ namespace Meet_QuanLyShopThoiTrang
             this.PanelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.PanelTiltleBar.ResumeLayout(false);
-            this.PanelTiltleBar.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -327,7 +312,6 @@ namespace Meet_QuanLyShopThoiTrang
         private System.Windows.Forms.Button btnSanPham;
         private System.Windows.Forms.Panel PanelLogo;
         private System.Windows.Forms.Panel PanelTiltleBar;
-        private System.Windows.Forms.Label lbTiltle;
         private System.Windows.Forms.Panel PanelMain;
         private Guna.UI2.WinForms.Guna2Button btDangXuat;
         private System.Windows.Forms.PictureBox pictureBox1;
