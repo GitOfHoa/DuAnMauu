@@ -10,6 +10,11 @@ namespace DAL_QLShopThoiTrang
 {
     public class DAL_SanPham: DbConnect
     {
+     public DataTable getHang()
+        {
+            console.writeline("ahah");
+        }
+        
         public DataTable getHang()
         {
             try
